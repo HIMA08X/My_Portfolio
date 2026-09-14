@@ -1,0 +1,84 @@
+/* ==========================================================================
+   TABLET — 1024px and below
+   ========================================================================== */
+@media (max-width: 1024px) {
+  :root { --section-pad: 5.5rem; }
+
+  .hero { padding-top: 8.5rem; }
+  .hero__inner {
+    grid-template-columns: 1fr;
+    text-align: left;
+  }
+  .hero__visual { order: -1; margin-bottom: 1rem; }
+  .hero__frame { max-width: 280px; margin: 0 auto; }
+
+  .skills-grid { grid-template-columns: 1fr; }
+
+  .contact__grid { grid-template-columns: 1fr; }
+}
+
+/* ==========================================================================
+   MOBILE NAV — 860px and below
+   ========================================================================== */
+@media (max-width: 860px) {
+  .nav__links {
+    position: fixed;
+    top: 68px;
+    left: 0;
+    right: 0;
+    background: rgba(8, 7, 12, 0.98);
+    backdrop-filter: blur(14px);
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    padding: 0.5rem 0 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+    transform: translateY(-8px);
+    opacity: 0;
+    pointer-events: none;
+    transition: transform var(--transition), opacity var(--transition);
+  }
+  .nav__links.is-open {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .nav__link {
+    width: 100%;
+    text-align: center;
+    padding: 0.9rem 0;
+  }
+  .nav__link.is-active::after { display: none; }
+  .nav__link.is-active { color: var(--primary-light); }
+
+  .nav__cta { display: none; }
+  .nav__toggle { display: flex; }
+  .nav__toggle.is-open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+  .nav__toggle.is-open span:nth-child(2) { opacity: 0; }
+  .nav__toggle.is-open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+}
+
+/* ==========================================================================
+   SMALL MOBILE — 560px and below
+   ========================================================================== */
+@media (max-width: 560px) {
+  .section__inner,
+  .nav__inner,
+  .hero,
+  .footer__inner {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .hero { padding-top: 7.5rem; padding-bottom: 3rem; }
+  .hero__title { font-size: 2rem; }
+  .hero__actions { flex-direction: column; align-items: stretch; }
+  .hero__actions .btn { text-align: center; justify-content: center; }
+
+  .soft-skills { grid-template-columns: repeat(2, 1fr); }
+
+  .project-card { flex-basis: 82vw; }
+
+  .training-card__head { flex-direction: column; align-items: flex-start; }
+  .experience-card__head { flex-direction: column; }
+}

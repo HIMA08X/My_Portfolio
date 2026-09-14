@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- =========================================
+     PAGE TITLE
+     Replace "YOUR NAME" with your actual name.
+     ========================================= -->
+<title>Ibrahim El-Sayed | Backend Developer | Software Engineer</title>
+
+<meta name="description" content="Backend Developer focused on building scalable, secure, and high-performance applications with C#, ASP.NET Core, and SQL Server.">
+<meta name="author" content="Ibrahim El-Sayed">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ibrahim El-Sayed — Backend Developer | Software Engineer">
+<meta property="og:description" content="Backend Developer focused on building scalable, secure, and high-performance applications with C#, ASP.NET Core, and SQL Server.">
+<!-- OG IMAGE: replace with a real preview image once available -->
+<meta property="og:image" content="assets/images/profile/profile.jpg">
+
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- =========================================
+     NAVIGATION
+     ========================================= -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <!-- LOGO / INITIALS -->
+    <a href="#home" class="nav__logo">Ibrahim El-Sayed<span class="nav__logo-dot">.</span></a>
+
+    <nav class="nav__links" id="navLinks">
+      <a href="#home" class="nav__link is-active" data-nav>Home</a>
+      <a href="#about" class="nav__link" data-nav>About</a>
+      <a href="#skills" class="nav__link" data-nav>Skills</a>
+      <a href="#training" class="nav__link" data-nav>Training</a>
+      <a href="#projects" class="nav__link" data-nav>Projects</a>
+      <a href="#coursers" class="nav__link" data-nav>Courses</a>
+      <a href="#contact" class="nav__link" data-nav>Contact</a>
+    </nav>
+
+    <a href="#contact" class="btn btn--primary nav__cta">Contact me</a>
+
+    <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- =========================================
+       HERO SECTION
+       ========================================= -->
+  <section class="hero" id="home">
+    <div class="hero__inner">
+      <div class="hero__copy">
+        <p class="hero__eyebrow">Backend Developer &middot; Software Engineer</p>
+        <h1 class="hero__title">
+          Building backend systems that hold up under real load.
+        </h1>
+        <p class="hero__desc">
+          <!-- HERO DESCRIPTION: replace with your own positioning if needed -->
+          Software Engineering focused on Backend Development with .NET. Skilled in C#, ASP.NET Core, Entity Framework Core, SQL Server, RESTful APIs, and Git/GitHub. Experienced in building backend applications, designing databases, and developing and testing APIs.
+        </p>
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary">View Projects</a>
+          <a href="#contact" class="btn btn--ghost">Get in touch</a>
+        </div>
+
+        <!-- SOCIAL LINKS -->
+        <div class="hero__socials">
+          <!-- GITHUB: replace # with your actual GitHub URL -->
+          <a href=" https://github.com/HIMA08X" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="social-link">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 .5C5.73.5.98 5.24.98 11.52c0 5.02 3.26 9.28 7.77 10.78.57.1.78-.25.78-.55 0-.27-.01-1.16-.02-2.1-3.16.69-3.83-1.34-3.83-1.34-.52-1.31-1.26-1.66-1.26-1.66-1.03-.71.08-.69.08-.69 1.14.08 1.74 1.17 1.74 1.17 1.01 1.74 2.65 1.24 3.3.95.1-.73.4-1.24.72-1.53-2.52-.29-5.17-1.26-5.17-5.6 0-1.24.44-2.25 1.17-3.04-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.14 1.16a10.9 10.9 0 0 1 5.72 0c2.18-1.47 3.14-1.16 3.14-1.16.62 1.59.23 2.76.11 3.05.73.79 1.17 1.8 1.17 3.04 0 4.35-2.65 5.31-5.18 5.59.41.35.77 1.04.77 2.1 0 1.52-.01 2.74-.01 3.11 0 .3.2.66.79.55 4.5-1.5 7.76-5.76 7.76-10.78C23.02 5.24 18.27.5 12 .5Z"/></svg>
+          </a>
+          <!-- LINKEDIN: replace # with your actual LinkedIn URL -->
+          <a href="https://www.linkedin.com/in/ibrahim-sayed-838509345" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-link">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27ZM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+          </a>
+          <!-- WHATSAPP: replace # with your actual WhatsApp link -->
+          <a href="https://wa.me/qr/CESPGLIF5PW5F1" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="social-link">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12.02 2C6.5 2 2.03 6.46 2.03 11.98c0 1.88.5 3.65 1.42 5.19L2 22l4.95-1.4a9.9 9.9 0 0 0 5.07 1.4h.01c5.52 0 9.98-4.46 9.98-9.98C22 6.46 17.54 2 12.02 2Zm5.85 14.1c-.25.7-1.44 1.34-1.98 1.4-.51.06-1.06.12-3.42-.72-2.89-1.05-4.75-3.9-4.9-4.08-.14-.19-1.17-1.56-1.17-2.98 0-1.42.75-2.11 1.02-2.4.27-.29.58-.36.78-.36.19 0 .39 0 .56.01.18.01.42-.07.65.5.25.6.85 2.07.92 2.22.07.15.12.32.02.51-.1.19-.15.31-.3.48-.15.17-.31.38-.44.51-.15.15-.3.31-.13.6.17.29.75 1.24 1.62 2.01 1.11.99 2.05 1.3 2.34 1.45.29.15.46.12.63-.07.17-.19.72-.84.92-1.13.19-.29.39-.24.65-.14.27.1 1.71.81 2 .96.29.15.48.22.55.34.07.13.07.75-.18 1.45Z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero__visual">
+        <div class="hero__frame">
+          <!-- =========================================
+               PERSONAL PROFILE IMAGE
+               Replace with your actual profile image.
+               ========================================= -->
+          <img src="assets/images/profile/profile.jpg" alt="Portrait of YOUR NAME" class="hero__img" onerror="this.parentElement.classList.add('hero__frame--empty')">
+        </div>
+        <div class="hero__badge">
+          <span class="hero__badge-dot"></span>
+          Open to backend / .NET opportunities
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================
+       ABOUT SECTION
+       ========================================= -->
+  <section class="section" id="about">
+    <div class="section__inner about">
+      <h2 class="section__title">About</h2>
+      <p class="about__text">
+        <!-- ABOUT ME TEXT: replace with your own summary if needed -->
+        I’m a Computer Science graduate and Backend Developer specializing in C#, .NET, and ASP.NET Core, with a strong focus on Software Engineering, scalable architectures, and high-performance backend systems.
+        I have hands-on experience with RESTful APIs, SQL Server, EF Core, Clean Architecture, CQRS, SOLID, Repository & Unit of Work, Dependency Injection, Redis, Caching, Background Services, Docker, and Microservices Architecture, alongside JWT Authentication, Authorization, Middleware, Serilog, Async/Await, and performance optimization.
+        I’m passionate about building clean, secure, scalable, and maintainable software, while continuously developing my skills in System Design, Cloud Technologies, and modern backend engineering practices.
+      </p>
+      <div class="about__focus">
+        <span class="pill">C#</span>
+        <span class="pill">.NET</span>
+        <span class="pill">ASP.NET Core</span>
+        <span class="pill">RESTful APIs</span>
+        <span class="pill">SQL Server</span>
+        <span class="pill">Entity Framework Core</span>
+        <span class="pill">Clean Architecture</span>
+        <span class="pill">Problem Solving</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================
+       TECHNICAL SKILLS
+       ========================================= -->
+  <section class="section section--alt" id="skills">
+    <div class="section__inner">
+      <h2 class="section__title">Technical Skills</h2>
+
+      <div class="skills-grid">
+
+        <article class="skill-category">
+          <h3 class="skill-category__title">Backend</h3>
+          <div class="skill-category__tags">
+            <span class="pill">C#</span>
+            <span class="pill">.NET</span>
+            <span class="pill">ASP.NET Core</span>
+            <span class="pill">ASP.NET Core Web API</span>
+            <span class="pill">RESTful APIs</span>
+            <span class="pill">LINQ</span>
+            <span class="pill">Entity Framework Core</span>
+            <span class="pill">ADO.NET</span>
+          </div>
+        </article>
+
+        <article class="skill-category">
+          <h3 class="skill-category__title">Software Engineering &amp; Architecture</h3>
+          <div class="skill-category__tags">
+            <span class="pill">OOP</span>
+            <span class="pill">SOLID Principles</span>
+            <span class="pill">Clean Architecture</span>
+            <span class="pill">CQRS</span>
+            <span class="pill">Repository Pattern</span>
+            <span class="pill">Unit of Work</span>
+            <span class="pill">Dependency Injection</span>
+            <span class="pill">Design Patterns</span>
+            <span class="pill">Separation of Concerns</span>
+            <span class="pill">Clean Code</span>
+          </div>
+        </article>
+
+        <article class="skill-category">
+          <h3 class="skill-category__title">Database</h3>
+          <div class="skill-category__tags">
+            <span class="pill">SQL Server</span>
+            <span class="pill">Database Design</span>
+            <span class="pill">ERD</span>
+            <span class="pill">SQL Queries</span>
+            <span class="pill">Joins</span>
+            <span class="pill">Views</span>
+            <span class="pill">Indexing</span>
+            <span class="pill">Query Optimization</span>
+          </div>
+        </article>
+
+        <article class="skill-category">
+          <h3 class="skill-category__title">Performance &amp; Scalability</h3>
+          <div class="skill-category__tags">
+            <span class="pill">Redis</span>
+            <span class="pill">Caching</span>
+            <span class="pill">Async / Await</span>
+            <span class="pill">Sync vs Async Programming</span>
+            <span class="pill">Read Replicas</span>
+            <span class="pill">Database Optimization</span>
+            <span class="pill">High-load Concepts</span>
+            <span class="pill">Scalability Concepts</span>
+            <span class="pill">Distributed Systems Concepts</span>
+          </div>
+        </article>
+
+        <article class="skill-category">
+          <h3 class="skill-category__title">Security</h3>
+          <div class="skill-category__tags">
+            <span class="pill">JWT Authentication</span>
+            <span class="pill">Authorization</span>
+            <span class="pill">Role-Based Access Control</span>
+            <span class="pill">API Security</span>
+            <span class="pill">CORS</span>
+            <span class="pill">Secure Configuration</span>
+          </div>
+        </article>
+
+        <article class="skill-category">
+          <h3 class="skill-category__title">API &amp; Development Tools</h3>
+          <div class="skill-category__tags">
+            <span class="pill">Swagger</span>
+            <span class="pill">Postman</span>
+            <span class="pill">Git</span>
+            <span class="pill">GitHub</span>
+          </div>
+        </article>
+
+        <article class="skill-category">
+          <h3 class="skill-category__title">Logging &amp; Reliability</h3>
+          <div class="skill-category__tags">
+            <span class="pill">Serilog</span>
+            <span class="pill">Middleware</span>
+            <span class="pill">Global Exception Handling</span>
+            <span class="pill">Validation</span>
+            <span class="pill">Error Handling</span>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- =========================================
+           SOFT SKILLS
+           Replace, remove, or add skills as needed.
+           ========================================= -->
+      <h3 class="section__subtitle">Soft Skills</h3>
+      <div class="soft-skills">
+        <div class="skill-card"><span>Problem Solving</span></div>
+        <div class="skill-card"><span>Communication</span></div>
+        <div class="skill-card"><span>Teamwork</span></div>
+        <div class="skill-card"><span>Time Management</span></div>
+        <div class="skill-card"><span>Attention to Detail</span></div>
+        <div class="skill-card"><span>Working Under Pressure</span></div>
+        <div class="skill-card"><span>Adaptability</span></div>
+        <div class="skill-card"><span>Critical Thinking</span></div>
+        <div class="skill-card"><span>Responsibility</span></div>
+        <div class="skill-card"><span>Continuous Learning</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================
+       TRAINING & PROFESSIONAL DEVELOPMENT
+       ========================================= -->
+  <section class="section" id="training">
+    <div class="section__inner">
+      <h2 class="section__title">Training &amp; Professional Development</h2>
+
+      <div class="training-list">
+
+        <!-- =========================================
+             TRAINING #1
+
+             TRAINING NAME:
+             Replace with the actual training name.
+
+             ORGANIZATION:
+             Replace with the actual organization.
+
+             DATE:
+             Replace with the actual date/duration.
+
+             DESCRIPTION:
+             Replace with the actual description.
+
+             TOPICS:
+             Replace with actual topics.
+
+             CERTIFICATE:
+             Add certificate link if available.
+             ========================================= -->
+        <article class="training-card">
+          <div class="training-card__head">
+            <h3 class="training-card__name">•	Digital Egypt Pioneers Initiative (DEPI) - Software Engineering Freelance</h3>
+            <span class="training-card__date"> 24/7/2026 - 6 months</span>
+          </div>
+          <p class="training-card__org">MCIT</p>
+          <p class="training-card__desc">
+            - Backend development with .NET Core, RESTful APIs, SQL Server, and Docker, with knowledge of Freelancing, Business English, and professional soft skills.
+          </p>
+          <p class="training-card__topics">
+            <strong>Topics:</strong> C# &bull; .NET Core &bull; SQL Server &bull; RESTful APIs &bull; Docker &bull; Freelancing &bull; Business English &bull; Soft Skills
+          </p>
+          <!-- CERTIFICATE LINK: replace # with the actual certificate URL, or remove the button if no certificate exists -->
+          <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--sm">View Certificate</a>
+        </article>
+
+        <!-- =========================================
+             TRAINING #2 — duplicate the block above for
+             each additional training item.
+             ========================================= -->
+        <article class="training-card">
+          <div class="training-card__head">
+            <h3 class="training-card__name">•	Backend .NET Training - Code Plus _ Online</h3>
+            <span class="training-card__date">18/8/2026 - 1 month</span>
+          </div>
+          <p class="training-card__org">Code Plus</p>
+          <p class="training-card__desc">
+            Practical experience with Clean Architecture, CQRS, Unit of Work, Dependency Injection, Middleware, and Caching.
+            Worked with Redis, Background Services, Docker, and Microservices Architecture through practical projects.
+
+          </p>
+          <p class="training-card__topics">
+            <strong>Topics:</strong> Types of Architectures &bull; Load Balancing  &bull; CQRS &bull; Unit of Work &bull; Dependency Injection &bull; Middleware &bull; Redis &bull; Background Services &bull; Docker &bull; Microservices Architecture
+          </p>
+          <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--sm">View Certificate</a>
+        </article>
+        
+        <!--==========================================================================================-->
+
+        <article class="training-card">
+          <div class="training-card__head">
+            <h3 class="training-card__name">•	NTI-Cloud Essentials_Intensive</h3>
+            <span class="training-card__date">20/8/2026 - 1 month</span>
+          </div>
+          <p class="training-card__org">NTI</p>
+          <p class="training-card__desc">
+             Cloud fundamentals covering Networking+, Red Hat Linux, and Huawei Cloud, with hands-on experience in networking, Linux administration, and cloud infrastructure.
+
+          </p>
+          <p class="training-card__topics">
+            <strong>Topics:</strong> Networking+ &bull; Red Hat Linux &bull; Huawei Cloud 
+          </p>
+          <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--sm">View Certificate</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================
+       PROJECTS
+       ========================================= -->
+  <section class="section section--alt" id="projects">
+    <div class="section__inner">
+      <div class="projects-head">
+        <h2 class="section__title">Projects</h2>
+        <div class="projects-nav">
+          <button class="carousel-btn" id="projPrev" aria-label="Previous project">&#8592;</button>
+          <button class="carousel-btn" id="projNext" aria-label="Next project">&#8594;</button>
+        </div>
+      </div>
+
+      <div class="projects-track" id="projectsTrack">
+        <!-- Project cards are rendered here by js/projects.js from the
+             data array at the top of that file. Edit the array to add,
+             remove, or update projects — do not edit this list by hand. -->
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================
+       COURSES
+       ========================================= -->
+  <section class="section" id="coursers">
+    <div class="section__inner">
+      <h2 class="section__title">Courses</h2>
+
+      <!-- =========================================
+           INTERNSHIP / EXPERIENCE
+
+           COMPANY:
+           POSITION:
+           DATE:
+           DESCRIPTION:
+           RESPONSIBILITIES:
+           TECHNOLOGIES:
+           CERTIFICATE:
+           RECOMMENDATION LETTER:
+           ========================================= -->
+      <article class="experience-card">
+        <div class="experience-card__head">
+          <div>
+            <h3 class="experience-card__role">•	Commercial International Bank - Generative AI Summer Training </h3>
+            <p class="experience-card__company">CIB</p>
+          </div>
+          <span class="experience-card__date">2026</span>
+        </div>
+        <!--<p class="experience-card__desc">DESCRIPTION</p>
+        <ul class="experience-card__list">
+          <li>Responsibility one</li>
+          <li>Responsibility two</li>
+          <li>Responsibility three</li>
+        </ul>
+        <div class="skill-category__tags">
+          <span class="pill">Technology 1</span>
+          <span class="pill">Technology 2</span>
+        </div>-->
+        <div class="experience-card__links">
+          <!-- CERTIFICATE LINK: replace # with the actual URL, or remove if not available -->
+          <a href="assets/images/certificate/course-1.jpg" target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--sm">Certificate</a>
+          <!-- RECOMMENDATION LETTER LINK: replace # with the actual URL, or remove if not available 
+          <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--sm">Recommendation Letter</a>-->
+        </div>
+     </article>
+         <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+      <article class="experience-card">
+        <div class="experience-card__head">
+          <div>
+            <h3 class="experience-card__role">•	InnovEgypt Program – Entrepreneurship & Innovation Training </h3>
+            <p class="experience-card__company">InnovEgypt Program – ITIDA & TIEC</p>
+          </div>
+          <span class="experience-card__date">2026</span>
+        </div>
+        <!--<p class="experience-card__desc">DESCRIPTION</p>
+        <ul class="experience-card__list">
+          <li>Responsibility one</li>
+          <li>Responsibility two</li>
+          <li>Responsibility three</li>
+        </ul>
+        <div class="skill-category__tags">
+          <span class="pill">Technology 1</span>
+          <span class="pill">Technology 2</span>
+        </div>-->
+        <div class="experience-card__links">
+          <!-- CERTIFICATE LINK: replace # with the actual URL, or remove if not available -->
+          <a href="assets/images/certificate/course-2.jpg" target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--sm">Certificate</a>
+          <!-- RECOMMENDATION LETTER LINK: replace # with the actual URL, or remove if not available 
+          <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--sm">Recommendation Letter</a>-->
+        </div>
+     </article>
+        <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+      
+      <article class="experience-card">
+        <div class="experience-card__head">
+          <div>
+            <h3 class="experience-card__role">• Database Fundamentals </h3>
+            <p class="experience-card__company">Mahara Tech</p>
+          </div>
+          <span class="experience-card__date">2026</span>
+        </div>
+        <!--<p class="experience-card__desc">DESCRIPTION</p>
+        <ul class="experience-card__list">
+          <li>Responsibility one</li>
+          <li>Responsibility two</li>
+          <li>Responsibility three</li>
+        </ul>
+        <div class="skill-category__tags">
+          <span class="pill">Technology 1</span>
+          <span class="pill">Technology 2</span>
+        </div>-->
+        <div class="experience-card__links">
+          <!-- CERTIFICATE LINK: replace # with the actual URL, or remove if not available -->
+          <a href="assets/images/certificate/course-3.jpg" target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--sm">Certificate</a>
+          <!-- RECOMMENDATION LETTER LINK: replace # with the actual URL, or remove if not available 
+          <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--sm">Recommendation Letter</a>-->
+        </div>
+      </article>
+       
+    </div>
+  </section>
+
+  <!-- =========================================
+       CONTACT
+       ========================================= -->
+  <section class="section section--alt" id="contact">
+    <div class="section__inner contact">
+      <h2 class="section__title">Contact <span class="accent">Me</span></h2>
+
+      <div class="contact__grid">
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or opportunity" required></textarea>
+          </div>
+          <!-- This form has no backend yet: it currently just opens the
+               visitor's mail client via the mailto link below. Wire it up
+               to a real form service or API endpoint when ready. -->
+          <button type="submit" class="btn btn--primary contact-form__submit">Send Message &#8594;</button>
+          <p class="contact-form__status" id="formStatus" role="status"></p>
+        </form>
+
+        <div class="contact-info">
+          <!-- =========================================
+               CONTACT EMAIL
+               Replace with your actual professional email.
+               ========================================= -->
+          <a href="mailto:ibrahimelsayed0x@gmail.com" class="contact-info__item">
+            <span class="contact-info__icon">&#9993;</span>
+            <span>
+              <strong>Email</strong>
+              <em>ibrahimelsayed0x@gmail.com</em>
+            </span>
+          </a>
+
+          <!-- PHONE NUMBER: replace with your actual number, or remove this block -->
+          <a href="tel:+201061363341" class="contact-info__item">
+            <span class="contact-info__icon">&#9742;</span>
+            <span>
+              <strong>Phone</strong>
+              <em>+20 106 136 3341</em>
+            </span>
+          </a>
+
+          <!-- LOCATION: replace with your actual city/country, or remove this block -->
+          <div class="contact-info__item contact-info__item--static">
+            <span class="contact-info__icon">&#128205;</span>
+            <span>
+              <strong>Location</strong>
+              <em>El Senbellwayin,Mansoura,Egypt</em>
+            </span>
+          </div>
+
+          <!-- GITHUB: replace # with your actual GitHub URL -->
+          <a href="https://github.com/HIMA08X" target="_blank" rel="noopener noreferrer" class="contact-info__item">
+            <span class="contact-info__icon">&lt;/&gt;</span>
+            <span>
+              <strong>GitHub</strong>
+              <em>github.com/HIMA08X</em>
+            </span>
+          </a>
+
+          <!-- LINKEDIN: replace # with your actual LinkedIn URL -->
+          <a href="https://www.linkedin.com/in/ibrahim-sayed-838509345" target="_blank" rel="noopener noreferrer" class="contact-info__item">
+            <span class="contact-info__icon">in</span>
+            <span>
+              <strong>LinkedIn</strong>
+              <em>linkedin.com/in/ibrahim-sayed-838509345</em>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- =========================================
+     FOOTER
+     ========================================= -->
+<footer class="footer">
+  <div class="footer__inner">
+    <span>&copy; <span id="year"></span> Ibrahim Sayed. All rights reserved.</span>
+    <a href="#home" class="footer__top">Back to top &#8593;</a>
+  </div>
+</footer>
+
+<script src="js/navigation.js"></script>
+<script src="js/animations.js"></script>
+<script src="js/projects.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
